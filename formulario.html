@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/bxs-florist.svg">
+    <title>Toto La Momposina</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+</head>
+<nav>
+    <a href="3discografia.html"><img src="img/bxs-left-arrow-circle.svg" alt="atras"></a>
+
+    <a href="1bio.html"><img src="img/bxs-home.svg" alt="home"></a>
+
+    <a href="1bio.html"><img src="img/bxs-right-arrow-circle.svg" alt="siguiente"></a>        
+    
+</nav>
+
+<body class="fondo" >
+    <!--Formulario-->
+    <section class="form">
+    <form name="Form" action="https://www.youtube.com/watch?v=wXqsOzBMGqs&list=PL308F725AF3598499" method="post" target="_blank" autocomplete="on" required>
+        <h1 class="hh1">Registrate</h1>
+        <!--nombre-->
+        <section class="elementos">
+        <label for="Form">Nombre Usuario:</label>
+        <input name="Nombre" id="nombre" type="text" maxlength="10" placeholder="Ingresar nombre">
+    </section>
+        <!--email-->
+    <section class="elementos">
+        <label for="email">Correo electrónico:</label>
+        <input type="email" name="email" id="email" placeholder="Ingresa el Correo electrónico"pattern="/^[a-zA-Z0-9.! #$%&'*+/=? ^_`{|}~-]+@[a-zA-Z0-9-]+(?:\. [a-zA-Z0-9-]+)*$/.">
+    </section>
+        <!--password-->
+        <section class="elementos">
+        <label for="form">Contraseña:</label>
+        <input name="Contraseña" id="Contraseña" type="password" placeholder="Ingresar Contraseña" pattern="(?=.*[0 - 9]) ( ?=.* [a - z]) ( ?=. [ *.!@ $% ^& ( ) { } [ ] :; < >,.?/~ _ +-=| \ ] ) . { 8 , 32 } $">
+    </section>
+        <!--edad-->
+        <section class="elementos"> 
+        <label for="edad">Edad:</label>
+        <input  name="edad" id="edad"type="number" placeholder="Ingresar edad" step="3">
+    </section>
+        <!--nacimiento-->
+    <section class="elementos"> 
+        <label for="date">Ingrese fecha de nacimiento </label>
+        <input type="date" id="date" name="date" min="2000-01-01" max="2022-01-01">
+    </section>
+         <!--notificaciones-->
+    <section class="elementos"> 
+         <label for="noti">Quiere recibir notificaciones por parte de nosotros</label> 
+    <section class="elementos"> 
+         <input name="noti" id="noti" type="radio" checked>Si 
+         <input name="noti" id="noti" type="radio" checked>No
+    </section>
+    </section>
+         <!--biografias-->
+    <section class="elementos"> 
+         <label for="personas">De las siguientes opciones le gustaría que hicieramos una biografía:</label>
+    <section class="elementos"> 
+         <input name="personas"id="personas"type="checkbox" checked> Dua Lipa
+         <input name="personas"id="personas"type="checkbox"> Joe Arroyo
+         <input name="personas"id="personas"type="checkbox"> Enanitos Verdes
+    </section>
+          <!--observaciones-->
+    <section class="elementos"> 
+        <label for="Observaciones">Observaciones</label>
+    </section>
+        <textarea name="observaciones" cols="60" rows="3"></textarea>
+         
+    <section class="elem"> 
+        <input type="submit" value="Enviar">
+    
+        <input type="reset" value="Borrar">
+    </section>
+        
+
+        
+       
+    </form>
+    </section>
+</section>
+    
+</body>
+
+<footer>
+    <h1>Creado por: Danna Sanchez</h1>
+</footer>
+
+</html>
